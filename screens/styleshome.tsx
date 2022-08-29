@@ -4,7 +4,8 @@ export const styleshome = StyleSheet.create({
 
 head:{
 flexDirection:"row",
-backgroundColor:"#1cb01e"
+backgroundColor:"#1cb01e",
+height:160,
 },
 
 titu:{
@@ -24,7 +25,7 @@ height:94
 },
 main:{
     backgroundColor:"#1cb01e",
-    height:700
+    height:779
 },
 maintitu:{
     fontSize:20,
@@ -47,8 +48,8 @@ pass:{
 },
 imgpass:{
     borderRadius:50,
-    height:319,
-    width:219
+    height:310,
+    width:210
 },
 
 textpass:{
@@ -62,7 +63,14 @@ textpassdetalhes:{
     backgroundColor:"#23238E",
     marginTop:20,
     fontSize:25,
-    color:"white"  
+    color:"white",
+    marginBottom:30
+
+},
+textcanide:{
+    margin:5,
+    fontSize:16,
+    color:"white"
 }
 
 
